@@ -25,14 +25,37 @@ Configurable memory hierarchy
 Modular Scala-based hardware configuration
 
 
+
+#instructions that are added
+| Instruction | Purpose               | Result                             |
+| ----------- | --------------------- | ---------------------------------- |
+| `AIADD`     | AI optimized addition | Faster tensor/vector accumulation  |
+| `AIMUL`     | AI multiplication     | Matrix multiplication acceleration |
+| `AIMAC`     | Multiply-Accumulate   | Neural network MAC operations      |
+| `AIRELU`    | ReLU activation       | Activation in hardware             |
+| `AISIGM`    | Sigmoid approximation | Faster inference                   |
+| `AITANH`    | Tanh approximation    | RNN/LSTM support                   |
+| `AIMAX`     | Maximum comparison    | Pooling and reduction              |
+| `AIMIN`     | Minimum comparison    | Pooling and reduction              |
+
+
+
 Current Status
+
 Component	Status
+
 Chipyard Build	✅ Complete
+
 SoC Generation	✅ Complete
+
 BootROM	✅ Working
+
 OpenSBI Integration	✅ Working
+
 UART	✅ Working
+
 Linux Boot	🚧 In Progress
+
 FPGA Validation	⏳ Planned
 
 
