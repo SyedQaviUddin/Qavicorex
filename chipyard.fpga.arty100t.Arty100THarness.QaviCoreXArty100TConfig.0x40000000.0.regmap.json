@@ -1,0 +1,37 @@
+{
+  "peripheral" : {
+    "displayName" : "qavidma.At0x40000000",
+    "baseAddress" : "0x40000000",
+    "regfields" : [ {
+      "unnamedRegField0_0" : {
+        "byteOffset" : "0x0",
+        "bitOffset" : 0,
+        "bitWidth" : 64
+      }
+    }, {
+      "unnamedRegField8_0" : {
+        "byteOffset" : "0x8",
+        "bitOffset" : 0,
+        "bitWidth" : 64
+      }
+    }, {
+      "unnamedRegField10_0" : {
+        "byteOffset" : "0x10",
+        "bitOffset" : 0,
+        "bitWidth" : 32
+      }
+    }, {
+      "unnamedRegField18_0" : {
+        "byteOffset" : "0x18",
+        "bitOffset" : 0,
+        "bitWidth" : 1
+      }
+    }, {
+      "unnamedRegField20_0" : {
+        "byteOffset" : "0x20",
+        "bitOffset" : 0,
+        "bitWidth" : 2
+      }
+    } ]
+  }
+}
