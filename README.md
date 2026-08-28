@@ -54,9 +54,9 @@ OpenSBI Integration	✅ Working
 
 UART	✅ Working
 
-Linux Boot	🚧 In Progress
+Linux Boot done 
 
-FPGA Validation	⏳ Planned
+FPGA Validation	done 
 
 
 Project Structure
