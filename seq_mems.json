@@ -1,0 +1,16 @@
+[
+  {
+    "module_name": "mem_ext",
+    "depth": 8192,
+    "width": 64,
+    "masked": true,
+    "read": 0,
+    "write": 0,
+    "readwrite": 1,
+    "mask_granularity": 8,
+    "extra_ports": [],
+    "hierarchy": [
+      "ChipTop.system.bank.ram.mem.mem_ext"
+    ]
+  }
+]
